@@ -20,7 +20,7 @@ This project is a **CRUD API** built using **FastAPI** and **PySpark**. It provi
 - **Apache Spark**.
 - **MySQL Connector JAR** file for Spark (`mysql-connector-j-9.0.0.jar`).
 
-Ideally you'd want to keep the mysql-connector-j-9.0.0.jar file in .gitignore file, since we don't want git to track it.
+Ideally you'd want to keep the mysql-connector-j-9.0.0.jar file in .gitignore file, since we don't want git to track it, or put it in a different location instead of the codebase and reference its path.
 
 ## 4. Set up MySQL
 - Create a MySQL schema named my_schema.
